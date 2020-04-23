@@ -1,0 +1,175 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;;
+}
+body{
+	background: rgb(255,69,0);
+	font-family: sans-serif;
+}
+.menu{
+	background: rgb(255,69,0);
+	text-align: right;
+}
+.menu img{
+	position:absolute;
+	width:80px;
+	height:50px;
+	left:25px;
+	top:20px;
+}
+.menu ul{
+	display: inline-flex;
+	list-style: none; 
+}
+.menu ul li{
+	width: 149px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu ul li a:hover{
+	color: black;
+}
+.images{
+	background:lightgrey;
+	width: 100%;
+	
+	overflow: hidden;
+}
+.images img
+{
+   max-height:200px;
+}
+.images h1{
+	color:black;
+	text-align: center;
+}
+#sliderbox{
+	position: relative;
+	width: 5400px;
+	animation-name: slideranimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img{
+	float: left;
+}
+@keyframes slideranimation{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: -800px;
+	}
+	45%{
+		left: -800px;
+	}
+	50%{
+		left: -1600px;
+	}
+	70%{
+		left: -1600px;
+	}
+	75%{
+		left: -2400px;
+	}
+	95%{
+		left: -2400px;
+	}
+
+}
+.feature{
+	background:white;
+	text-align: center;
+}
+.feature ul{
+	display: inline-flex;
+	list-style: none;
+}
+.feature ul li{
+	width: auto;
+}
+.career{
+	/*position:absolute;*/
+	background-color: lightgray;
+	width: 150px;
+	height:200px;
+	/*left:200px; */
+	border:2px solid black;
+	padding:10px;
+	margin: 20px;
+}
+.career a{
+	/*  position: absolute;
+	/*left: 5px;*/
+}
+.career img{
+	width: 128px;
+	height: 185px;
+}
+.alumini{
+	/*position:absolute;*/
+	background-color: lightgray;
+	width: 150px;
+	height:200px;
+	border:2px solid black;
+	padding:10px;
+	margin: 20px;
+}
+.alumini a{
+	/*position: absolute;
+	/*left: 50px;*/
+}
+.alumini img{
+	/*float: center;*/
+	width: 128px;
+	height: 185px;
+}
+.innolounge{
+    /*position:absolute;*/
+	background-color: lightgray;
+	width: 150px;
+	height:00200px;
+	/*left:1000px; */
+	border:2px solid black;
+	padding:10px;
+	margin: 20px;
+}
+.innolounge a{
+	/*float: right;
+	/*position: absolute;
+	/*left: 10px;*/
+}
+.innolounge img{
+	width: 128px;
+	height: 185px;
+}
+.about{
+	background: rgb(135,135,135);
+	/*position: absolute;*/
+	width: 100%;
+}
+
+.about h1{
+	text-align: center;
+}
+ .about p{
+ 	
+	text-align:center;
+}
+}
+h4.contact{
+	position: absolute;
+	left: 300px;
+}
+h4.email {
+	position: absolute;
+	right:300px;
+}
