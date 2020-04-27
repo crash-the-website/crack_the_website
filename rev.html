@@ -6,6 +6,9 @@
 </head>
 
 <style type="text/css">
+	img{
+		display:inline-flex;
+	}
 .menu ul{margin: 0px;
 	padding:0px;
 	list-style: none;
@@ -35,7 +38,7 @@
 .menu ul li:hover ul li{
 	display:block;
 }
-.menu {
+.menu { width:100%;
 		position:fixed;
 		left:250px;
 		top: 10px;
@@ -46,7 +49,7 @@
 .me ul{
 	list-style:none;
 }
-.me ul figure li {
+.me ul figure li { 
 	width: 300px;
 	height: 50px;
 	background-color: black;
@@ -55,25 +58,35 @@
 	text-align: center;
 	line-height: 50px;
 }
+.me a{
+	color:white;
+}
+.me{
+	width:100%;
+	height:220px;
+}
 #about h1 {
 		 font-size:50px;	
 }	
-#about {
+#about {width:100%;
  	background-image: url(https://www.worldwidemenus.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/i/silver_foil_2.jpg);
 }
-#about p{position: relative;
+#about p{
+	position: relative;
 			left: 45px;
  			font-size:23px;	
 }
 .footer summary::-webkit-details-marker{display:none;}
 
 .footer{
+	font-size: 20px;
    text-align:center;
 	background-color:#2471A3;
 }
 .professors ul figure{
+	top:5px;
 	float:left;
-	margin:-10px;
+	margin-top:0px;
 }
 .professors ul figure li{
 	list-style:none;
@@ -84,38 +97,47 @@
 	text-align: center;
 	line-height: 50px;
 	color:white;
+	
 }
 .professors{
-	position:relative;
-	left:-15px;
+	background-color: white;
+	width:100%;
+	height:270px;
+
 }
 .add ul li{
 	float:left;
 	margin:50px;
 	text-align: center;
-	line-height: 50px;
 }
 .add ul {
 	list-style:none;
 }	
-.add{ position: relative;
-	left:100px;
+.add{
+	width:100%;
+	height:200px; 
+	text-align:center;
 	background-image: url(https://www.worldwidemenus.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/i/silver_foil_2.jpg);
 }
 .social{
-	position:relative;
+	width:100%;
+	height:50px;
+	background-image: url(https://www.worldwidemenus.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/i/silver_foil_2.jpg);
+	
+}
+.social a{
+	position: relative;
 	left:300px;
-	top:200px;
 }
 
 </style
 		
-<body style="background:url(https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80.jpg); background-size:100%; position:absolute; background-repeat:no-repeat; background-color:"#85C1E9">
+<body style="background-size:100%; position:absolute; background-repeat:no-repeat; background-color:"#85C1E9";">
 <div>
 	<div class="menu">
 		<ul>
 			<li><a>Home</a></li>
-			<li><a>About</a></li>
+			<li><a href="#about">About</a></li>
 			<li><a>Admission</a>
 				<ul>
 					<li><a>Admission Process</a></li>
@@ -148,7 +170,7 @@
 		</ul>
 	</div>
 	<div>
-		<img src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" width="100%" height="700px">
+		<img src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" width="100%" height="600px">
 	</div>
 </div>
 <div>
@@ -184,15 +206,14 @@
 	</div>
 <div>
 	<div id="about">
-		<h1><b>ABOUT US</b><h1>
+		<h1><b>ABOUT US</b><h1><hr>
 			<p>A non-selective state boarding school, Gordon’s School was established in 1885 at the behest of Queen Victoria and has since developed </br>into one of the leading boarding schools in the UK. Situated in 50-acres of beautiful grounds with generous facilities, we seek to</br> provide a world-class education that ensures all students learn how to be the best they can be.</p>
 			<p>Officially listed as one of Britain’s outstanding schools by Her Majesty’s Chief Inspector, we recognise that a good education is not</br> just about outstanding examination results but a thorough preparation for life; it is about providing opportunities and experiences</br> for all young people to find their talents and interests, develop good character, become accomplished and achieve across a range of </br>disciplines and ultimately develop the confidence to go and make their mark in the world.</p>
 			<p>However, the real judgement of Gordon’s is the students. All who visit are struck by the friendliness, discipline and vibrancy</br> throughout the school and by the family atmosphere, exemplified by the special rapport between staff and students. This is borne from a</br> community that strives: to live with integrity, to be courteous, enthusiastic and diligent, even in adversity.</p>
 			<p>As parents, we wish our children to grow up to lead fulfilled lives, enjoy healthy lifestyles and make a positive contribution to the</br> wider world. At Gordon’s we want nothing less. We want Gordon’s to be recognised as one of the finest schools in the world, not just</br> for our achievements, but for the calibre of young people we develop and the difference they make to the lives of others.</p>
 			<p>	<b>Andrew J Moss MEd</b></br>
 				Head Teacher </p>
-	</div>
-	<div>
+		
 			<details class="footer"> 
 			<summary><h2> NATIONALITY </h2>(click here)</summary>
 			<p><b><h2>66</h2></b></p>
@@ -217,7 +238,6 @@
 			<summary><h2> ACCREDITATIONS AND MEMBERSHIPS OF</br> GLOBAL ASSOCIATION</h2>(click here)</summary>
 			<p><b><h2>10</h2></b></p>
 			</details>
-		</div>
 </div>
 <div class="professors">
 		<ul>
@@ -261,7 +281,7 @@
 <div>
 	<div class="add">
 		<ul>
-			<li><h2>ADDRESS</h2><h3>Loana Wla Mumbai C/211</br>nearby Marine Drive,</br>Apollo Street 110049</h3></li>
+			<li><h2>ADDRESS</h2><h3><address>Loana Wla Mumbai C/211</br>nearby Marine Drive,</br>Apollo Street 110049</address></h3></li>
 			<li><h2>PHONE NUMBER</h2><h3>0112626626,9876543211</br>01198235647</h3></li>
 			<li><h2> EMAIL ADDRESS</h2><h3><a href="mailto:rcdubey.fzd@gmail.com">abc@gmail.com</a></br> <a href="mailto:rcdubey.fzd@gmail.com">abc@something.com</a></h3></li>
 		</ul>
@@ -280,6 +300,10 @@
 				alt="follow on facebook">	</a>
 	
 	</div>
+<br>	
+</div>
+<div width="100%" height="400px" style="background-color:white;">
+	<embed width="420" height="315" src="https://www.youtube.com/embed/Edx69gRsals?autoplay=1;controls=1;loop=0" >
 </div>
 
 </body>
