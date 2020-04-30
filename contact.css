@@ -1,0 +1,88 @@
+body{
+		background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:bottom-left;
+	}
+.menu ul{
+			height:50px;
+			margin: 0px;
+			padding:0px;
+			list-style: none;
+		}
+.menu ul li{
+			 display: inline-block;
+			 float:left;
+			 width:145px;
+			 height:50px;
+			 background-color: black;
+			 opacity:.8;
+			 line-height: 50px;
+			 text-align:center;
+			 font-size: 20px;
+			}
+.menu ul li a{
+			 text-decoration: none;
+			 color: white;
+			 display: block;
+			}	
+.menu ul li a:hover{
+					background-color: green;
+					}
+.menu ul li ul li{
+					display: none;
+				}
+.menu ul li:hover ul li{
+						display:block;
+					}
+.menu {
+		background-color: black;
+		opacity:.8;
+		width:100%;
+		}
+h1{
+	color: #194746;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 35px;
+	margin-top:40px;
+	padding-top: 50px;
+	font-family: Tahoma, Geneva, sans-serif	;
+	}
+form{
+	margin: 50px auto;
+	width:500px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+div{
+	margin-top:25px;
+	}
+label{
+	  display: inline-block;
+	  width:120px;
+	  text-align:right;
+	  color:#2D4747;
+	  font-size:20px;
+	  padding-right: 20px;
+	}
+input, textarea{
+				font-size:20px;
+				font-family: Arial, Helvetica, sans-serif;
+				background: rgba(231,237,237,0.4);
+				width:300px;
+				color: #384949;
+				vertical-align:top;
+			}
+.button1{
+	text-decoration:none;
+	border: none;
+	background: #217777;
+	color: #C1CBCB;
+	font-weight: 80;
+	padding:25px;
+	transition: all 0.5s ease 0s;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	}
