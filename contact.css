@@ -1,65 +1,67 @@
+/* CSS Document */
 body{
 		background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
 		background-repeat:no-repeat;
 		background-size:cover;
 		background-position:bottom-left;
 	}
-.def{	margin-top:0px;
-		margin-left: 35px;
-	}
+.def {
+	margin-left: 35px;
+}
 .menu ul{
-		  height:50px;
-		  margin: 0px;
-		  padding:0px;
-		  list-style: none;
+			height:50px;
+			margin: 0px;
+			padding:0px;
+			list-style: none;
+			top: 0;
 		}
 .menu ul li{
-			display: inline-block;
-			float:left;
-			width:200px;
-			height: 50px;
-			background-color: black;
-			opacity:.8;
-			line-height: 50px;
-			text-align:center;
-			font-size: 20px;
-		   }
+			 display: inline-block;
+			 float:left;
+			 width:170px;
+			 height:50px;
+			 background-color: black;
+			 opacity:.8;
+			 line-height: 50px;
+			 text-align:center;
+			 font-size: 20px;
+			}
 .menu ul li a{
-				text-decoration: none;
-				color: white;
-				display: block;
-			 	}	
+			 text-decoration: none;
+			 color: white;
+			 display: block;
+			}	
 .menu ul li a:hover{
-						background-color: green;
-						}
+					background-color: gray;
+					}
 .menu ul li ul li{
 					display: none;
 				}
 .menu ul li:hover ul li{
-							display:block;
-						}
-.menu {	margin-top: -20px;
+						display:block;
+					}
+.menu {
 		background-color: black;
 		opacity:.8;
-		 width:100%;
+		width:100%;
 		}
 h1{
 	color: #194746;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	padding-left: 35px;
-	margin-top:40px;
-	padding-top: 50px;
+	margin-top:10px;
+	padding-top: 30px;
 	font-family: Tahoma, Geneva, sans-serif	;
 	}
 form{
-	margin: 50px auto;
+	margin: 30px auto;
 	width:500px;
 	border-radius: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	}
 div{
-	margin-top:25px;
+	margin-top:20px;
 	}
 label{
 	  display: inline-block;
@@ -69,6 +71,9 @@ label{
 	  font-size:20px;
 	  padding-right: 20px;
 	}
+male,female{
+text-align : right ;
+}
 input, textarea{
 				font-size:20px;
 				font-family: Arial, Helvetica, sans-serif;
