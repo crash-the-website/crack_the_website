@@ -3,6 +3,7 @@ body{
 		background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
 		background-repeat:no-repeat;
 		background-size:cover;
+	        background-position: center;
 	}
 .def {
 	margin-left: 35px;
