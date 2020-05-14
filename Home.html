@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>My School</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="home.css">
@@ -40,9 +40,32 @@
 			</li>
 		</ul>
 	</div>
-	<div>
-		<img src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" width="100%" height="600px">
+	<div class="w3-content w3-display-container">
+		<img class="mySlides"src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" style="width:100%">
+		<img class="mySlides" src="https://bangkok.unesco.org/sites/default/files/styles/theme_highlights/public/assets/article/Education/images/shutterstock571733401_0.jpg?itok=Os48S0Eq" style="width:100%">
+		<img class="mySlides" src="https://www.nme.com/wp-content/uploads/2020/04/school-life-netflix.jpg" style="width:100%">
+		<img class="mySlides" src="https://www.stpeterandstpaulschool.co.uk/_site/data/files/images/content/7DBD8F134E181F821A38596639A18C5D.jpg" style="width:100%">
+		<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSB-PrA5Nz8BjoiQe11WE0pLE52gk3n7KuMvEnHXpT4DSkI2QCo&usqp=CAU" style="width:100%">
 	</div>
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+			}
+		myIndex++;
+		if (myIndex > x.length) 
+		{
+			myIndex = 1
+			}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 4000);    
+}
+</script>
 </div>
 <div>
 	<div class="me">
