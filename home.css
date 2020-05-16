@@ -7,10 +7,19 @@ body{
 		img{
 				display:inline-flex;
 			}
+		.name {
+			font-size: 110%;
+			font-family: Trattatello, fantasy;
+			text-align: center;
+
+		}
+		.name h1{
+			display:inline;
+		}
 
 	/* -----------------------------------------------------Top Menu Mtart-----------------------------------------------------*/		
 		.def {
-				margin-left: 35px;
+				margin-left: 2%;
 			}
 		.menu ul{
 				height:50px;
@@ -90,7 +99,8 @@ body{
 		  				color: #83C6DA;
 		 				text-align: center;	
 					}	
-		#about {
+		#about {	
+					clear:both;
 					width:100%;
  					background-color: #064658;
 				}
@@ -105,26 +115,7 @@ body{
    					text-align:center;
 					background-color:#2471A3;
 				}
-		.professors ul figure{
-								float:left;
-								margin:10px;
-
-							}
-		.professors ul figure li{
-									list-style:none;
-									height:60px;
-									background-color: black;
-									opacity:0.8;
-									font-size:20px;
-									text-align: center;
-									line-height: 50px;
-									color:white;
-								}
-		.professors{
-						background-color: #61B0C5;
-						width:100%;
-						height:280px;
-					}
+		
     /*----------------------------------------------------------Footer Start---------------------------------*/
 					
 		.hey{
@@ -155,13 +146,15 @@ body{
 					padding: 0px;
 					list-style:none;
 				}	
-		.add{
+		.add{	
+				clear: both;
 				width:100%;
 				height:380px; 
 				text-align:center;
 				background-color: black;
 				opacity:.8;
 				color:white;
+				
 			}
 		.social{	
 					margin: 0px;
@@ -181,6 +174,5 @@ body{
 				width:100%;
 				line-height: 50px;
 				background-color: #ffffff;
-				bottom: 0px;
 			}
 	/*------------------------------------------------------Footer End---------------------------------------*/
