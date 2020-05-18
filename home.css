@@ -1,6 +1,37 @@
 
 /* HOME.CSS FILE */
-
+/* -------------------------------------------------------TOP BAR-------------------------------------------------*/
+.nav-bar{
+	background-color: #EAF1F0;
+}
+a{
+	text-decoration: none;
+	line-height:inherit;
+	color:#EAF1F0;
+	background:transparent;
+}
+.logo img {
+	width:10%;
+	height:24px;
+	margin-top:1.25rem;
+	margin-left:1.5 rem;
+	float:left;
+}
+a img{
+	border:none;
+}
+img{
+	display:inline-block;
+	vertical-align:middle;
+	max-width:100%;
+}
+.head li {
+	font-family: 'Open Sans',Arial,sans-serif;
+	font-size:20px;
+	color:#237485;
+	text-align:center;
+}
+	
 body{ 
 				background-image: linear-gradient(#10708C, #8DC2D1);
 			}
@@ -64,8 +95,7 @@ body{
 					opacity:.8;
  					width:100%;
 				}
-     /* ------------------------------------------------------------Top Menu End---------------------------------------------*/
-
+     /* ------------------------------------------------------------Top Menu End-------------------------------------------*/
 		.me ul figure{
 						margin-left: 60px; 
 						float:left;
