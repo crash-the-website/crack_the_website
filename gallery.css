@@ -1,0 +1,157 @@
+/* GALLERY.CSS FILE */		
+
+		.top{
+			margin-top: 1px;
+			height:75px;
+			background-color:#EAF1F0 
+		}
+		.name{
+			height:75px;
+			float: left;
+			font-family: Trattatello, fantasy;
+			color:#46534f;
+			margin-left:2%;
+			font-size: 110%;
+			
+		
+		}
+		.name h1{
+			line-height: 75px;
+			display:inline;
+		}
+
+	/* ----------------------------------------Top Menu Mtart--------------------------------------*/		
+		.def {
+				margin-left: 1%;
+			}
+		.menu ul{
+				margin:0px;
+				padding: 0px;
+				height:50px;
+				list-style: none;
+				}
+		.menu ul li{
+						display:block;
+						float:left;
+						width:200px;
+						height: 50px;
+						background-color: black;
+						opacity:.8;
+						line-height: 50px;
+						text-align:center;
+						font-size: 20px;
+					}
+		.menu ul li a{
+						text-decoration: none;
+						color: white;
+						display: block;
+					}
+	
+		.menu ul li a:hover{
+								background-color: green;
+								/*-webkit-transform:rotate(360deg);
+								transform:rotate(360deg);
+								transition-duration: 0.8s;*/
+								opacity:1;
+								width:200px;
+								height:50px;
+							}
+		.menu ul li ul li{
+								display: none;
+						}
+		.menu ul li:hover ul li{
+									display:block;
+								}
+		.menu {		
+					background-color: black;
+					opacity:.8;
+ 					width:100%;
+				}
+
+	/* ----------------------------------------------------Top Menu End---------------------------------------*/
+
+		{
+			box-sizing: border-box;
+		}
+		body{
+				background-color: #f1f1f1;
+				padding: 5px;
+				
+		}
+		.content h3,h2{
+			margin:1px;
+			padding: 1px;
+			font-size:30px;
+			font-family: arial black;
+		}
+		.main{
+			max-width:1500px;
+			margin:auto;
+		}
+		.main h1{
+			margin-bottom:1px;
+			text-align:center;
+			font-size:50px;
+			font-family: arial black;
+		}
+		.row{
+			margin:8px-16px;
+		}
+		.column{
+			float:left;
+			width:50%;
+		}
+		.content{
+			background-color:white;
+			padding:10px;
+		}
+	@media screen and(max-width:900px){
+		.coloumn{
+			width:50%;
+		}
+	}
+	@media screen and (max-width:600px){
+		.column{
+			width:100%;
+		}
+	}
+		.content1 h3{
+				margin: 1px;
+				padding: 1px;
+				font-size: 30px;
+				font-family: arial black;	
+		}
+		.row1{
+			margin:8px-16px;
+		}
+		.column1{
+			float:left;
+			width:33%;
+		}
+		.content1{
+			background-color:white;
+			padding:10px;
+		}
+	@media screen and(max-width:900px){
+		.coloumn1{
+			width:50%;
+		}
+	}
+	@media screen and (max-width:600px){
+		.column1{
+			width:100%;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	
