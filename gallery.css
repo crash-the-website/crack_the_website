@@ -143,6 +143,72 @@
 		}
 	}
 
+.hey{
+						float:left;
+						margin-top: 20px;
+						margin-left:100px;
+						text-align: center;
+					}
+		.hey ul li{
+						line-height: 40px;
+						font-size: 20px;
+						list-style-type:square;
+						text-align: center;
+						margin-top:20px;
+					}
+		.hey ul li a{
+						color:white;
+						font-size: 20px;
+						text-decoration: none;
+					}
+		.hey i{
+					line-height: 40px;
+					font-size: 20px;
+				  }
+		.add ul { 
+					
+					margin: 15px;
+					padding: 0px;
+					list-style:none;
+				}	
+		.add{	
+				clear: both;
+				width:100%;
+				height:380px; 
+				text-align:center;
+				background-color: black;
+				opacity:.8;
+				color:white;
+				
+			}
+		.social{	
+					margin: 0px;
+					width:100%;
+					height:50px;
+					background-color: black;
+					opacity:0.8;
+				}
+		.social a{
+						display: block;
+						position: relative;
+						bottom:350px;
+				 }
+		.copy{ 		
+				clear:both;
+				text-align: center;
+				width:100%;
+				line-height: 50px;
+				background-color: #ffffff;
+				border:1px solid black;
+			}
+
+.fa a{
+	color: white;
+}
+.fa a:hover{
+	color: #83C6DA;
+}
+		/*------------------------------------------------------Footer End---------------------------------------*/
 
 
 
