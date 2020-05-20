@@ -14,10 +14,10 @@ img{
 			}
 		.top{
 			height:75px;
-			background-color:#EAF1F0 
+			background-color:#EAF1F0 ;
 		}
 		.name{
-			height:75px;
+			height:50px;
 			float: left;
 			font-family: Trattatello, fantasy;
 			color:#46534f;
@@ -81,7 +81,7 @@ img{
 				}
      /* ------------------------------------------------------------Top Menu End--------------------------------------*/
 
-h1{
+.form h1{
 	color: #194746;
 	font-size: 40px;
 	text-align: center;
@@ -96,7 +96,7 @@ form{
 	border-radius: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	}
-div{
+.form div{
 	margin-top:20px;
 	}
 label{
