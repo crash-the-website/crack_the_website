@@ -34,6 +34,24 @@ body{
 		    font-family:sans seriff;
 			font-size:35px;
 		}
+		#corner{
+			width:10%;
+		}
+		.name a{
+			top:0px;
+			right:0px;
+			position:fixed;
+			border:1px solid black;
+			color:grey;
+			background-color:#F3E367;
+			width:10%;
+			height:5%;
+			text-align:center;
+		}
+		.name a:hover{
+			background-color:white;
+		}
+
 		 h2{
 			color:white;
 		}
