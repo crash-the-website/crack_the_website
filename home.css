@@ -197,19 +197,58 @@ border:1px solid black;
 				}
 				
 		.footer h2{
-								color:black;
-		}
-			
-				
-				 .hey{
-						float:left;
-						margin-top: 20px;
-						margin-left:100px;
-						text-align: center;
+					color:black;
 					}
-	.hey h2{
-		color:#F3E367;
-	}
+		.teacher{
+			margin-top: 0px;
+			padding-top: 0px;
+		}
+
+		.teacher h1{
+					margin-top: 0px;
+					line-height: 50px;
+					opacity:.8;
+					color:white;
+					background-color:#7F8688; 
+					padding-left: 5%;
+					font-size: 30px;
+				}
+
+		.carousel {
+				  /*background: #EEE;*/
+				}
+
+		.carousel-cell {
+					font-size: 30px;
+					text-align: center;
+				  	width: 28%;
+				  	height: 250px;
+				 	 margin-right: 10px;
+				 	/* background: #8C8;*/
+				  	border-radius: 5px;
+				  	counter-increment: carousel-cell;
+				}
+		.carousel-cell img{
+		  margin-left:center;
+		  margin-top: center;
+		  border-radius: 50%;
+		}
+
+		.carousel-cell.is-selected {
+		 /* background: #ED2;*/
+		}
+
+	/*--------------------------------------footer start-------------------*/	
+			
+		.hey{
+				float:left;
+				margin-top: 20px;
+				margin-left:100px;
+				text-align: center;
+			}
+	  	.hey h2{
+				color:#F3E367;
+				}
 		.hey ul li{
 						line-height: 40px;
 						font-size: 20px;
