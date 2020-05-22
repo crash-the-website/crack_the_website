@@ -7,14 +7,14 @@
 		img{
 				display:inline-flex;
 			}
-		.top{
+			.top{
 			height:75px;
 		}
 		.name{
 			height:75px;
 			float: left;
 			font-family: Trattatello, fantasy;
-			color:#F3E367;
+			color:#DCAF0A;
 			margin-left:2%;
 		}
 		.main h2{
@@ -34,6 +34,24 @@
 		    font-family:sans seriff;
 			font-size:35px;
 		}
+		#corner{
+			width:10%;
+		}
+		.name a{
+			top:0px;
+			right:0px;
+			position:fixed;
+			border:1px solid black;
+			color:grey;
+			background-color:#F3E367;
+			width:10%;
+			height:5%;
+			text-align:center;
+		}
+		.name a:hover{
+			background-color:white;
+		}
+
 		 h2{
 			color:white;
 		}
@@ -43,15 +61,18 @@
 		.content1{
 			color:#929D9E;;
 		}
-
-	/* -----------------------------------------------------Top Menu Mtart-----------------------------------------------------*/		
+		/*---------------------------------------------Top Menu Mtart-----------------------------------------------------*/		
 		.def {
 				margin-left: 1%;
+			}
+			.def>a:hover{
+				border-bottom:3px solid #F3E367;
+				visibility:visible;
 			}
 		.menu ul{
 				margin:0px;
 				padding: 0px;
-				height:50px;
+				height:150px;
 				list-style: none;
 				}
 		.menu ul li{
@@ -59,10 +80,10 @@
 						float:left;
 						width:200px;
 						height: 50px;
-						opacity:.8;
 						line-height: 50px;
 						text-align:center;
-						font-size: 20px;
+						font-size: 20px;'
+						position:fixed;
 					}
 		.menu ul li a{
 						text-decoration: none;
@@ -72,32 +93,32 @@
                         font-size: 22px;					}
 	
 		.menu ul li a:hover{
-								/*-webkit-transform:rotate(360deg);
-								transform:rotate(360deg);
-								transition-duration: 0.8s;*/
-								opacity:1;
 								width:200px;
 								height:50px;
-								background-color:#F3E367;
 							}
 		.menu ul li ul li{
 								display: none;
 						}
 		.menu ul li:hover ul li{
 									display:block;
-									color:#F3E367;
-								}
+								
+		}
+		#after li a:hover{
+background-color:#F3E367;
+outline:0;
+border:1px solid black;
+}	
 		.menu {		
 					background-color: none;
-					opacity:.8;
  					width:100%;
 				}
      /* ------------------------------------------------------------Top Menu End--------------------------------------*/
 
-
-		{
-			box-sizing: border-box;
-		}
+.w3-content{
+		 padding-top:12px;
+		 margin-top:10px;
+	 }
+		
 		.content h3,h2{
 			margin:1px;
 			padding: 1px;
@@ -105,8 +126,7 @@
 			font-family: arial black;
 		}
 		.main{
-			max-width:1500px;
-			margin:auto;
+			margin:30px;
 		}
 		.main h1{
 			margin-bottom:1px;
@@ -126,7 +146,7 @@
 			padding:10px;
 		}
 	@media screen and(max-width:900px){
-		.coloumn{
+		.column{
 			width:50%;
 		}
 	}
@@ -200,7 +220,6 @@
 				height:380px; 
 				text-align:center;
 				background-color: #7F8688;
-				opacity:.8;
 				color:white;
 				
 			}
@@ -208,7 +227,6 @@
 					margin: 0px;
 					width:100%;
 					height:50px;
-					opacity:0.8;
 				}
 		.social a{
 						display: block;
@@ -222,7 +240,7 @@
 				line-height: 50px;
 				background-color:#929D9E ;
 				color:white;
-                                border:1px solid #F3E367;
+                border:1px solid #F3E367;
 			}
 
 .fa a{
