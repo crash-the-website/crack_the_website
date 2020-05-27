@@ -247,7 +247,7 @@ border:1px solid black;
 					text-align: center;
 					text-decoration:bold;
 				  	width: 22%;
-				  	height: 250px;
+				  	/*height: 250px;*/
 				 	margin-right: 10px;
 				  	/*border-radius: 5px;*/
 				  	counter-increment: carousel-cell;
