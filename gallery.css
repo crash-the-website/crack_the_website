@@ -227,11 +227,14 @@ border:1px solid black;
 					margin: 0px;
 					width:100%;
 					height:50px;
+					right: 0px;
 				}
 		.social a{
 						display: block;
 						position: relative;
 						bottom:350px;
+						right: 0px;
+						width: 10%;
 				 }
 		.copy{ 		
 				clear:both;
