@@ -1,8 +1,10 @@
 
-function myFunction(){
-	
-var x=document.getElementById("btn");
-var y =document.getElementById("btn1");
+function myFunction(obj){
+	//alert(obj);
+	//console.log(obj.getElementsByClassName("btn"));
+var x=obj;
+var y =obj.nextElementSibling;
+console.log(obj.nextSibling);
  if (x.style.display == "none") {
    x.style.display = "block";
    y.style.display = "none";
@@ -11,9 +13,9 @@ var y =document.getElementById("btn1");
    y.style.display = "block";
  }
 }
-function myFunc() {
-var x = document.getElementById("btn");
- var y = document.getElementById("btn1");
+function myFunc(obj) {
+var x = obj;
+ var y = obj.previousElementSibling;
  if (y.style.display == "none") {
    y.style.display = "block";
    x.style.display = "none";
