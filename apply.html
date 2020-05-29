@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My School</title>
+    <link rel="stylesheet" href="apply.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="LogoMakr_9KzVHw.png" width="40%" height="75px">Welcome to Grand high School</img></div>
+	  <div class="name" id="corner">
+		<a href="contact.html">Talk to us!</a>
+	  </div>
+		<label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+		</label>
+		<input type="checkbox" id="btn">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><label for="btn-1" class="show">About Us+</label>
+			<a href="#">About Us</a>
+			<input type="checkbox" id="btn-1">
+			<ul>
+				<li><a>History</a></li>
+				<li><a>Mission</a></li>
+				<li><a>Vision</a></li>
+				<li><a>Goals</a></li>
+			</ul>
+			</li>
+			<li><label for="btn-2" class="show">Admissions+</label>
+			<a href="#">Admissions</a>
+			<input type="checkbox" id="btn-2">
+			<ul>
+				<li><a>Admission Process</a></li>
+				<li><a>Admission Enquiry</a></li>
+				<li><a href="apply.html">Apply Now</a></li>
+				<li><a>Fee Structure</a></li>
+			</ul>
+			</li>
+			<li><label for="btn-3" class="show">Academics+</label>
+            <a href="#">Academics</a>
+            <input type="checkbox" id="btn-3">
+            <ul>
+				<li><a>Primary School</a></li>
+				<li><a>Secondary School</a></li>
+				<li><a href="tc.html">Download TC</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+<script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+  </body>
+</html>
