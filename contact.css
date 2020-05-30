@@ -1,6 +1,6 @@
 /* CSS Document */
 body{
-		background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('https://images.squarespace-cdn.com/content/v1/57e33a34579fb342f2bc84cb/1475813017868-DCGI4PJ5FOGWBHSHVT66/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/Contact_82318755_XXXLARGE.jpg');
+		background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('https://pinnacleedu.in/wp-content/uploads/2018/11/wc-1-1024x480-1.jpg');
 		background-repeat:no-repeat;
 		background-size:cover;
 		background-position:center;
@@ -8,143 +8,87 @@ body{
 		padding:5px;
 	}
 	
+	body{ 
+	    background-color: #00203FFF;
+		padding:5px;
+	}
+	.navbar-nav{
+		width:100%;
+	}
+	.navbar-expand{
+	}
+	.nav-item{
+		width:18%;
+	}
+	.collapse a:hover{
+		border-bottom:2px solid #ADEFD1FF;
+	}
+	.dropdown-menu{
+		background-color:#ADEFD1FF;
+	}
+	.dropdown-menu a:hover{
+		box-sizing:border-box;
+		box-shadow:2px 2px 2px 2px #00203FFF;
+	}
+	.dropdown-item a{
+		color:#00203FFF;
+		font-size:1em;
+	}
+	.navbar{
+		border-radius:30px;
+	}
+	.collapse{
+		float:right;
+		border-left: 3px solid #999966;
+	}
+	.navbar-brand{
+		font-size:1.8em;
+		font-family:sans sheriff;
+	}
+    .nav-link{
+		width:110px;
+	}
+	.name{
+		height:75px;
+		float: left;
+		font-family: Trattatello, fantasy;
+		color: #dadad8;
+		margin-left:2%;
+		transition-timing-function: ease-in-out;
+	}
+	#corner{
+		width:10%
+	}
+	.name a{
+		top:0px;
+		right:0px;
+		position:fixed;
+		border:1px solid black;
+		color:#00203FFF;
+		width:100px;
+		height:5%;
+		text-align:center;
+		transition: width 2s;
+		background-color:white;
+	}
+	.name a:hover{
+		border-radius:10px;
+		width: 200px;
+		background-color:#353531;
+		color:white;
+	}
+
+	@media screen and(min-width:990px){
+		.name a {
+			display:none;
+		}
+	}
+	
  /*------------------------------------------TOP MENU ----------------------------- */
-	 *{
-	box-sizing:border-box;
-}
-			img{
-				display:inline;
-			}
-		.top{
-			height:75px;
-		}
-		.name{
-			height:75px;
-			float: left;
-			font-family: Trattatello, fantasy;
-			color:#DCAF0A;
-			margin-left:2%;
-		}
-		.main h2{
-			color:white;
-			text-align:center;
-			padding-top:10px;
-			margin-top:5px;
-		}
-		hr{
-			width:100%;
-			color: #929D9E;
-		}
-		.name h1{
-			line-height: 75px;
-			display:inline;
-			font-weight: bolder;
-		    font-family:sans seriff;
-			font-size:35px;
-		}
-		#corner{
-			width:10%;
-		}
-		.name a{
-			top:0px;
-			right:0px;
-			position:fixed;
-			border:1px solid black;
-			color:grey;
-			background-color:#F3E367;
-			width:10%;
-			height:5%;
-			text-align:center;
-		}
-		.name a:hover{
-			background-color:white;
-		}
 
-		 h2{
-			color:white;
-		}
-		.content{
-			color:#929D9E;
-		}
-		.content1{
-			color:#929D9E;;
-		}
-
-
-
-
-a:-webkit-any-link {
-cursor:pointer;
-}
-
-        .def{
-				margin-left: 1%;
-			}
-			
-			.def>a:hover{
-				border-bottom:3px solid #F3E367;
-				visibility:visible;
-			}
 	
-		.menu ul{
-				margin:0px;
-				padding: 0px;
-				height:50px;
-				list-style: none;
-				}
-		.menu ul li{
-						display:block;
-						float:left;
-						width:200px;
-						height: 50px;
-						line-height: 50px;
-						text-align:center;
-						font-size: 20px;
-						position:relative;
-					}
-		.menu ul li a{
-						text-decoration: none;
-						color: white;
-						display: block;
-						font-weight:bolder;		
-                        font-size: 22px;			
-                        white-space:nowrap;
-						position:relative;
-						overflow:hidden;
-						transition: all 0.3s ease;
-						}
-	
-		.menu ul li a:hover{
-								/*-webkit-transform:rotate(360deg);
-								transform:rotate(360deg);
-								transition-duration: 0.8s;*/
-								width:200px;
-								height:50px;
-		}
-#after li a:hover{
-background-color:#F3E367;
-outline:0;
-border:1px solid black;
-}	
-		
-		.menu ul li ul li{
-								display: none;
-						}
-		.menu ul li:hover ul li{
-									display:block;	
-}
-					
-		.menu {		
-					background-color: none;
- 					width:100%;
-		}
-     
-.w3-content{
-		 padding-top:12px;
-		 margin-top:10px;
-	 }
 .form h1{
-	color: #2A240E;
+	color: #ADEFD1FF;
 	font-size: 40px;
 	text-align: center;
 	padding-left: 35px;
@@ -165,7 +109,7 @@ label{
 	  display: inline-block;
 	  width:120px;
 	  text-align:right;
-	  color:#C9C2A8;
+	  color:#A2A2A1FF;
 	  font-size:20px;
 	  padding-right: 20px;
 	}
@@ -177,15 +121,14 @@ input, textarea{
 				font-family: Arial, Helvetica, sans-serif;
 				background: rgba(231,237,237,0.4);
 				width:300px;
-				color:#F3E367;
+				color:#CCFFE6;
 				vertical-align:top;
 			}
 .button1{
-	width:30%;
 	text-decoration:none;
 	border: none;
-	background:#4F4307;
-	color: #E3DDBC;
+	background:#22aa6d;
+	color: white;
 	font-weight: 80;
 	padding:25px;
 	transition: all 0.5s ease 0s;
@@ -193,17 +136,17 @@ input, textarea{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:20px;
 	}
-/*----------------------------------------------------------Footer Start---------------------------------*/
-					
+/*--------------------------------------footer start-------------------*/	
+			
 		.hey{
-						float:left;
-						margin-top: 20px;
-						margin-left:100px;
-						text-align: center;
-					}
-	.hey h2{
-		color:#F3E367;
-	}
+				float:left;
+				margin-top: 20px;
+				margin-left:100px;
+				text-align: center;
+			}
+	  	.hey h2{
+				color:#ADEFD1FF;
+				}
 		.hey ul li{
 						line-height: 40px;
 						font-size: 20px;
@@ -212,7 +155,7 @@ input, textarea{
 						margin-top:20px;
 					}
 		.hey ul li a{
-						color:white;
+						color: #eafbf3;
 						font-size: 20px;
 						text-decoration: none;
 					}
@@ -231,9 +174,8 @@ input, textarea{
 				width:100%;
 				height:380px; 
 				text-align:center;
-				background-color: #7F8688;
-				color:white;
-				
+				background-color: #00203FFF;
+				color: #eafbf3;
 			}
 		.social{	
 					margin: 0px;
@@ -250,17 +192,15 @@ input, textarea{
 				text-align: center;
 				width:100%;
 				line-height: 50px;
-				background-color:#929D9E ;
-				color:white;
-                border:1px solid #F3E367;
+				background-color:#00203FFF ;
+				color:#eafbf3;
+                border:1px solid #26c07a;
 			}
 
 .fa a{
 	color: white;
 }
 .fa a:hover{
-	color: #F3E367;
+	color: #ADEFD1FF;
 }
 		/*------------------------------------------------------Footer End---------------------------------------*/
-
-/*------------------------------------------------------Footer End---------------------------------------*/
