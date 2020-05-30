@@ -1,63 +1,71 @@
-<!doctype html>
+<!-- Image and text -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>My School</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <script src="home.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>My School</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="home.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="home.html">
+			<img src="LOGO.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+			WELCOME TO GRAND HIGH SCHOOL
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-<div class="top">
-	<div class="name" id="logo">
-		<img src="LogoMakr_9KzVHw.png" width="40%" height="75px">
-	</div>
-	<div class="name" id="school-name">
-		<h1>Welcome to Grand High School</h1>
-	</div>
-	<div class="name" id="corner">
-	    <a href="contact.html">Talk to us!</a>
-	</div>
-</div><hr>
-		
-
-<div>
-	<div class="menu">
-		<ul>
-			<li class="def"><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-			<li class="def"><a href="#about">About us</a>
-				<ul id="after">
-					<li ><a>History</a></li>
-					<li><a>Mission</a></li>
-					<li><a>Vision</a></li>
-					<li><a>Goals</a></li>
-				</ul>
-			</li>
-			<li class="def"><a>Admissions</a>
-				<ul id="after">
-					<li><a>Admission Process</a></li>
-					<li><a>Admission Enquiry</a></li>
-					<li><a>Apply Now</a></li>
-					<li><a>Fee Structure</a></li>
-				</ul>
-			</li>
-			<li class="def"><a>Academics</a>
-				<ul id="after">
-					<li><a>Primary School</a></li>
-					<li><a>Secondary School</a></li>
-					<li><a href="tc.html">Download TC</a></li>
-				</ul>
-			</li>
-			<li class="def"><a href="gallery.html">Gallery</a>
-			</li>
-			<li class="def"><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a>
-			</li>
-		</ul>
-	</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="history.html">History</a>
+						<a class="dropdown-item" href="mission.html">Mission</a>
+						<a class="dropdown-item" href="vision.html">Vision</a>
+						<a class="dropdown-item" href="goals.html">Goals</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="process.html">Admission Process</a>
+						<a class="dropdown-item" href="Enquiry.html">Admission enquiry</a>
+						<a class="dropdown-item" href="apply.html">Apply Now</a>
+						<a class="dropdown-item" href="Fee.html">Fee Structure</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="primary.html">Primary School</a>
+						<a class="dropdown-item" href="secondary.html">Secondary School</a>
+						<a class="dropdown-item" href="tc.html">Download TC</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us<span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<div class="name" id="corner">
+				<a href="contact.html">Talk to us!</a>
+			</div>
+		</div>
+	</nav>
 	<div class="w3-content w3-display-container">
 		<img class="mySlides"src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" style="width:100%">
 		<img class="mySlides" src="https://bangkok.unesco.org/sites/default/files/styles/theme_highlights/public/assets/article/Education/images/shutterstock571733401_0.jpg?itok=Os48S0Eq" style="width:100%">
@@ -84,7 +92,6 @@
 			setTimeout(carousel, 4000);    
 		}
 	</script>
-</div>
 <div>
 	<div class="me">
 		<ul>
@@ -116,12 +123,12 @@
 	
 <div>
 	<div id="about">
-		<h1><b>ABOUT US</b><h1><hr>
+		<h1><b>ABOUT US</b><h1><hr style="height:2px;border-width:0;color:WHITE;background-color:WHITE">
 			<p>A non-selective state boarding school, Gordon’s School was established in 1885 at the behest of Queen Victoria and has since developed </br>into one of the leading boarding schools in the UK. Situated in 50-acres of beautiful grounds with generous facilities, we seek to</br> provide a world-class education that ensures all students learn how to be the best they can be.</p>
 			<p>Officially listed as one of Britain’s outstanding schools by Her Majesty’s Chief Inspector, we recognise that a good education is not</br> just about outstanding examination results but a thorough preparation for life; it is about providing opportunities and experiences</br> for all young people to find their talents and interests, develop good character, become accomplished and achieve across a range of </br>disciplines and ultimately develop the confidence to go and make their mark in the world.</p>
 			<p>However, the real judgement of Gordon’s is the students. All who visit are struck by the friendliness, discipline and vibrancy</br> throughout the school and by the family atmosphere, exemplified by the special rapport between staff and students. This is borne from a</br> community that strives: to live with integrity, to be courteous, enthusiastic and diligent, even in adversity.</p>
 			<p>As parents, we wish our children to grow up to lead fulfilled lives, enjoy healthy lifestyles and make a positive contribution to the</br> wider world. At Gordon’s we want nothing less. We want Gordon’s to be recognised as one of the finest schools in the world, not just</br> for our achievements, but for the calibre of young people we develop and the difference they make to the lives of others.</p>
-			<p>	<b>Andrew J Moss MEd</b></br>
+			<p class="de">	<b>Andrew J Moss MEd</b></br>
 				Head Teacher </p>
 		
 			<details class="footer"> 
