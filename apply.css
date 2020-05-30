@@ -65,13 +65,14 @@ nav ul{
   margin-right: 40px;
   list-style: none;
   position: relative;
-  width:80%;
+  width:90%;
 }
 nav ul li{
   float: left;
   display: inline-block;
   margin: 0 5px;
-  width:160px;
+  width:200px;
+  text-align: center;
 }
 nav ul li a{
   color: white;
@@ -105,9 +106,10 @@ nav ul li:hover > ul{
   visibility: visible;
 }
 nav ul ul li{
+  text-align: center;
   position: relative;
   margin: 0px;
-  width: 150px;
+  width: 200px;
   float: none;
   display: list-item;
   border-bottom: 1px solid rgba(0,0,0,0.3);
@@ -131,7 +133,7 @@ nav ul ul ul li{
   }
   nav .logo{
     padding-left: 30px;
-    width: 100%;
+    width: 80%;
   }
   .show + a, ul{
     display: none;
@@ -211,4 +213,24 @@ header{
 p{
   font-size: 30px;
   font-weight: 500;
+}
+
+
+@media all and (max-width: 1400px){
+  nav ul{
+    margin-right: 0px;
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+  }
+  nav .logo{
+    padding-left: 20px;
+    width: 80%;
+  }
+  nav ul li{
+    margin:0px;
+    width: 150px;
+    font-size: 80%;
+  }
+
 }
