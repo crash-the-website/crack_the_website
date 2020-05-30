@@ -1,57 +1,71 @@
+<!-- Image and text -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Download TC! </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>My School</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="tc.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="top">
-	<div class="name" id="logo">
-		<img src="LogoMakr_9KzVHw.png" width="40%" height="75px">
-	</div>
-	<div class="name" id="school-name">
-		<h1>Welcome to Grand High School</h1>
-	</div>
-	<div class="name" id="corner">
-	    <a href="contact.html">Talk to us!</a>
-	</div>
-</div><hr>
-		
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="home.html">
+			<img src="LOGO.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+			WELCOME TO GRAND HIGH SCHOOL
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-<div>
-	<div class="menu">
-		<ul>
-			<li class="def"><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-			<li class="def"><a href="#about">About us</a>
-				<ul id="after">
-					<li ><a>History</a></li>
-					<li><a>Mission</a></li>
-					<li><a>Vision</a></li>
-					<li><a>Goals</a></li>
-				</ul>
-			</li>
-			<li class="def"><a>Admissions</a>
-				<ul id="after">
-					<li><a>Admission Process</a></li>
-					<li><a>Admission Enquiry</a></li>
-					<li><a>Apply Now</a></li>
-					<li><a>Fee Structure</a></li>
-				</ul>
-			</li>
-			<li class="def"><a>Academics</a>
-				<ul id="after">
-					<li><a>Primary School</a></li>
-					<li><a>Secondary School</a></li>
-					<li><a>Download TC</a></li>
-				</ul>
-			</li>
-			<li class="def"><a href="gallery.html">Gallery</a>
-			</li>
-			<li class="def"><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a>
-			</li>
-		</ul>
-	</div>
-</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="history.html">History</a>
+						<a class="dropdown-item" href="mission.html">Mission</a>
+						<a class="dropdown-item" href="vision.html">Vision</a>
+						<a class="dropdown-item" href="goals.html">Goals</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="process.html">Admission Process</a>
+						<a class="dropdown-item" href="Enquiry.html">Admission enquiry</a>
+						<a class="dropdown-item" href="apply.html">Apply Now</a>
+						<a class="dropdown-item" href="Fee.html">Fee Structure</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="primary.html">Primary School</a>
+						<a class="dropdown-item" href="secondary.html">Secondary School</a>
+						<a class="dropdown-item" href="tc.html">Download TC</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us<span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<div class="name" id="corner">
+				<a href="contact.html">Talk to us!</a>
+			</div>
+		</div>
+	</nav>
+
 <div class="tc">
 		<img src="https://image.freepik.com/free-vector/welcome-back-school-lettering-crossed-diploma-scrolls_1262-14721.jpg" height="350px">
 	</div>
@@ -62,15 +76,12 @@
 			<div class="admsnnumber" align="center">	
 				<input type="Number" name="admsnnumber" id="admsnnumber" placeholder="Admission Number" required>
 			</div>
-			<div class="tcdetails" align="center">
-				<input type="submit" name="tcdetails" id="tcdetails" value="View Details" >
+			<div class="button" align="center">
+				<a class="button1" href="https://mail.google.com/mail/u/0/" target="_blank" rel="indexsS">View Details</a>
 			</div>
 		</div>
 	</form>
 </div>
-
-
-
 
 <div>
 	<div class="add">
@@ -80,7 +91,7 @@
 					<li><a href="">Faculty</a></li>
 					<li><a href="">Career</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="">Download your TC</a></li>
+					<li><a href="tc.html">Download your TC</a></li>
 					<li><a href="contact.html">Contact us</a></li>
 				</ul>
 			</li>
@@ -117,4 +128,5 @@
 <div class="copy"><i class="fa fa-copyright" aria-hidden="true"> Copyright 2020 All Rights Reserved </i></div>
 
 </body>
+
 </html>
