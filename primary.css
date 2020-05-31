@@ -1,101 +1,77 @@
-	
-
-	body{ 
-	    background-color: #00203FFF;
-		padding:5px;
-	}
-	.navbar-nav{
-		width:100%;
-	}
-	.navbar-expand{
-	}
-	.nav-item{
-		width:18%;
-	}
-	.collapse a:hover{
-		border-bottom:2px solid #ADEFD1FF;
-	}
-	.dropdown-menu{
-		background-color:#ADEFD1FF;
-	}
-	.dropdown-menu a:hover{
-		box-sizing:border-box;
-		box-shadow:2px 2px 2px 2px #00203FFF;
-	}
-	.dropdown-item a{
-		color:#00203FFF;
-		font-size:1em;
-	}
-	.navbar{
-		border-radius:30px;
-	}
-	.collapse{
-		float:right;
-		border-left: 3px solid #999966;
-	}
-	.navbar-brand{
-		font-size:1.8em;
-		font-family:sans sheriff;
-	}
-
-
-
-
-	.name{
-		height:75px;
-		float: left;
-		font-family: Trattatello, fantasy;
-		color: #dadad8;
-		margin-left:2%;
-		transition-timing-function: ease-in-out;
-	}
-	#corner{
-		width:10%
-	}
-	.name a{
-		top:0px;
-		right:0px;
-		position:fixed;
-		border:1px solid black;
-		color:grey;
-		width:100px;
-		height:5%;
-		text-align:center;
-		transition: width 2s;
-		background-color:white;
-	}
-	.name a:hover{
-		border-radius:10px;
-		width: 200px;
-		background-color:#353531;
-		color:white;
-	}
-
-	@media screen and(min-width:990px){
-		.name a {
-			display:none;
-		}
-	}
-		/*--------------------------------------footer start-------------------*/	
-			
-		.hey{
-				float:left;
-				margin-top: 20px;
-				margin-left:100px;
-				text-align: center;
+body {
+    background-image: linear-gradient(#7F8688,#929D9E);
+    margin: 0px;
+    padding:0px; 
+}
+.navbar-brand{
+	font-weight: bolder;
+}
+.nav-item>a:hover{
+				border-bottom:3px solid #685404;
+				opacity:1;
+				visibility:visible;
 			}
+.dropdown-menu a:hover{
+	background-color:#F3E367;
+outline:0;
+border:1px solid black;
+}
+.navbar-nav{
+	font-size: 20px;
+	margin-left:20px;
+}
+.navbar-light .navbar-brand {
+    color: #dcaf0a;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.nav-item{
+	font-weight: bolder;
+	text-align: center;
+	width: 160px;
+	padding-left: 15px;
+}
+.name{
+	position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.dropdown-menu{
+	background-color:  #6c919b;
+	text-align: center;
+}
+.dropdown-item{
+	font-weight: bolder;
+	color:#fff;
+}
+
+/*************************navbar end**********************************/
+
+
+
+
+
+/*****************************************footer star*******************/
 	  	.hey h2{
-				color:#ADEFD1FF;
+				color:#F3E367;
 				}
+		.hey{
+			list-style: none;
+		}
 		.hey ul li{
-						line-height: 40px;
+						
 						font-size: 20px;
 						list-style-type:square;
-						text-align: center;
 						margin-top:20px;
 					}
 		.hey ul li a{
-						color: #eafbf3;
+						color:black;
 						font-size: 20px;
 						text-decoration: none;
 					}
@@ -103,44 +79,80 @@
 					line-height: 40px;
 					font-size: 20px;
 				  }
-		.add ul { 
+		.col-sm>ul { 
 					
-					margin: 15px;
-					padding: 0px;
+					padding-left: 5px;
 					list-style:none;
-				}	
-		.add{	
-				clear: both;
-				width:100%;
-				height:380px; 
-				text-align:center;
-				background-color: #00203FFF;
-				color: #eafbf3;
-			}
-		.social{	
-					margin: 0px;
-					width:100%;
-					height:50px;
 				}
-		.social a{
-						display: block;
-						position: relative;
-						bottom:350px;
-				 }
-		.copy{ 		
+		.footer{
+			padding-right: 0px;
+		}		  
+		.col-sm{	
+				width:100%; 
+				text-align:center;
+				background-color: #7F8688;
+				color:white;
+				
+			}
+			.row{
+				margin-left: 10px;
+				margin-right:0px;
+			}
+
+			.copy{ 		
 				clear:both;
 				text-align: center;
 				width:100%;
 				line-height: 50px;
-				background-color:#00203FFF ;
-				color:#eafbf3;
-                border:1px solid #26c07a;
+				background-color:#929D9E ;
+				color:black;
+                border:1px solid #F3E367;
 			}
+		.social { width: 50px;
+
+    /* height: 20px; */
+   				 border-radius: 50px;
+   				 text-align: center;
+				    line-height: 50px;
+				    position: relative;
+					right: 0px;
+				}
+				.social a{
+						position: relative;
+						right: 0px;
+				}
+	.side-social{
+		list-style: none;
+		
+	}
+	#instagram{
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, 
+				    	#d6249f 60%, #285AEB 90%) !important;
+	}	
+	#gmail{
+		background:linear-gradient(#D44638 , #B23121 , #EEEEEE ,
+						 #E2E2E2 , #C6C6C6  ) !important;
+	}
+	#facebook{
+		background: #3b5998  !important;
+    color: #FFF !important;
+	}		
+	.social i{
+		font-size: 20px;
+	}		
 
 .fa a{
-	color: white;
+	color: black;
 }
 .fa a:hover{
-	color: #ADEFD1FF;
+	color: #F3E367;
 }
-		/*------------------------------------------------------Footer End---------------------------------------*/
+
+@media all and (max-width: 992px){
+	.name{
+		position:absolute;
+		top: 1px;
+		right: 100px;
+	}
+
+}
