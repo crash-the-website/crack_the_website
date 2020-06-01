@@ -1,6 +1,7 @@
 	
 
 		body {
+			padding: 5px;
     background-color: #00203FFF;
     margin: 0px;
     padding:0px; 
@@ -89,58 +90,7 @@
 	
 
 /*************************navbar end**********************************/
-		.def {
-				margin-left: 1%;
-			}
-			.def>a:hover{
-				border-bottom:3px solid #F3E367;
-				visibility:visible;
-			}
-		.menu ul{
-				margin:0px;
-				padding: 0px;
-				height:150px;
-				list-style: none;
-				}
-		.menu ul li{
-						display:block;
-						float:left;
-						width:200px;
-						height: 50px;
-						line-height: 50px;
-						text-align:center;
-						font-size: 20px;'
-						position:fixed;
-					}
-		.menu ul li a{
-						text-decoration: none;
-						color: white;
-						display: block;
-						font-weight:bolder;		
-                        font-size: 22px;					}
-	
-		.menu ul li a:hover{
-								width:200px;
-								height:50px;
-							}
-		.menu ul li ul li{
-								display: none;
-						}
-		.menu ul li:hover ul li{
-									display:block;
-								
-		}
-		#after li a:hover{
-background-color:#F3E367;
-outline:0;
-border:1px solid black;
-}	
-		.menu {		
-					background-color: none;
- 					width:100%;
-				}
-     /* ------------------------------------------------------------Top Menu End--------------------------------------*/
-
+		
 .w3-content{
 		 padding-top:12px;
 		 margin-top:10px;
@@ -161,10 +111,10 @@ border:1px solid black;
 			font-size:50px;
 			font-family: arial black;
 		}
-		.row{
+		.row2{
 			margin:8px-16px;
 		}
-		.column{
+		.column2{
 			float:left;
 			width:50%;
 		}
@@ -173,12 +123,12 @@ border:1px solid black;
 			padding:10px;
 		}
 	@media screen and(max-width:900px){
-		.column{
+		.column2{
 			width:50%;
 		}
 	}
 	@media screen and (max-width:600px){
-		.column{
+		.column2{
 			width:100%;
 		}
 	}
@@ -210,12 +160,7 @@ border:1px solid black;
 			width:100%;
 		}
 	}
-   				/*--------------------------------------footer start-------------------*/
-	.h{
-				margin-left: 10px;
-				margin-right:0px;
-				width:100%;
-			}				
+   				/*--------------------------------------footer start-------------------*/			
 			
 				.hey h2{
 				color: #ADEFD1FF;
@@ -253,6 +198,10 @@ border:1px solid black;
 				text-align:center;
 				background-color: none;
 				display:inline-block;
+			}
+			.row{
+			
+				
 			}
 
 			.copy{ 		
