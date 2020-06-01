@@ -1,8 +1,10 @@
-/* Tc.css*/
+
+		/* Tc.css*/
 	body {
     background-color: #00203FFF;
     margin: 0px;
-    padding:0px; 
+    padding:0px;
+    color: #ADEFD1FF; 
 }
 .navbar-brand{
 	font-weight: bolder;
@@ -88,23 +90,12 @@
 	
 
 /*************************navbar end**********************************/
-		.tc{
-			width:45%;
-			float: left;
-			margin-top: 10px;
-			height:400px;
+		
 		}
-		.tc h3{ 
-				line-height: 50px;
-				text-align: center;
-				font-size: 40px;
-				font-weight: bolder;
-				color: #ADEFD1FF;
-				position:relative;
-		}
+		 h3 {
+					 font-size: 2rem;
+					}
 		.tc img{
-			float:left;
-			width:40em;
 			margin:2px;
 			padding:5px;
 		}
@@ -123,7 +114,7 @@
 		.button1{
 			text-decoration:none;
 			border-radius: 5px 0 5px 0;
-			background:#00203FFF;
+			background:#010911;
 			color: #ADEFD1FF;
 			font-weight: bolder;
 			padding:10px;
@@ -141,7 +132,7 @@
 
 
 		/*--------------------------------------footer start-------------------*/	
-	cc	.row{
+		.row{
 			width:100%;
 		}
 				.hey h2{
