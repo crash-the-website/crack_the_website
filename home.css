@@ -1,6 +1,9 @@
 
 /* HOME.CSS FILE */
-		body {
+*{
+	box-sizing:border-box;
+}
+body {
     background-color: #00203FFF;
     margin: 0px;
     padding:0px; 
@@ -84,12 +87,15 @@
 		border-radius:10px;
 		width: 200px;
 		background-color:white;
-	
 	}
 
 	
 
 /*************************navbar end**********************************/
+		
+		
+     
+     /* ------------------------------------------------------------Top Menu End--------------------------------------*/
 	 .w3-content{
 		 padding-top:12px;
 		 margin-top:10px;
@@ -98,20 +104,17 @@
 		.me ul figure{
 						margin-left: 60px; 
 						float:left;
-						margin-top:20px;
-						width:350px;		
 					}
 		.me ul{
-					
 					height: 280px;
 					margin: 0px;
 					padding: 0px;
 					list-style:none;
-					text-align:center;
 				}
 		.me ul figure li {
+							width: 300px;
 							height: 50px; 
-							background-color:#A2A2A1FF;
+							background-color: black;
 							font-size:30px;
 							text-align: center;
 							line-height: 50px;
@@ -119,7 +122,7 @@
 		.me a{
 					margin: 0px;
 					padding:0px;
-					color:#195190FF;
+					color:white;
 				}
 		.me{
 				margin-top: 0px;
@@ -128,36 +131,33 @@
 			}
 		#about h1 {
 		 				font-size:40px;
-		  				color:#003d99;
+		  				color: #AD8A08;
 		 				text-align: center;	
 					    font-family:sans seriff;
 					}	
 		#about {	
 					clear:both;
 					width:100%;
- 					background-color:#808080;
+ 					background-color:white;
 				}
-		 hr{
-			color:white;
+		#about hr{
+			color:#8D7B38;
 			width:100%;
 		}
 		#about p{
  					font-size:20px;
- 					color:#ADEFD1FF;	
+ 					color: black;	
 				}
-		.de p{
-			color:#00203FFF;
-		}
-		.footer summary::-webkit-details-marker{display:none;}
+		.footer1 summary::-webkit-details-marker{display:none;}
 
-		.footer{
+		.footer1{
 					font-size: 20px;
    					text-align:center;
 					background-color:#F0F0F0;
 				}
 				
-		.footer h2{
-					color: #156a44;
+		.footer1 h2{
+					color:black;
 					}
 		.teacher{
 			margin-top: 0px;
@@ -194,7 +194,7 @@
 		.teacher h1{
 					margin-top:0 auto;
 					line-height: 1.25;
-					color:#ADEFD1FF;
+					color:black;
 					padding-left:2px 5px;
 					font-size: 30px;
 					text-align:center;
@@ -205,12 +205,11 @@
 					text-align: center;
 					text-decoration:bold;
 				  	width: 22%;
-				  	height: 250px;
 				 	margin-right: 10px;
 				  	/*border-radius: 5px;*/
 				  	counter-increment: carousel-cell;
-					color:#A2A2A1FF;
-							  display:inline-block;
+					color:#A04000;
+							  /*display:inline-block;*/
 
 					
 				}
@@ -226,11 +225,10 @@
 					text-align: center;
 					text-decoration:bold;
 				  	width: 100%;
-					height:80%
+					height:100px;
 					/*border-radius: 5px;*/
 				  	counter-increment: carousel-cell;
-					color:#ADEFD1FF;
-					background:#A2A2A1FF;
+					color:#F9E79F;
 				}
 	.btn1{
 		            font-size: 30px;
@@ -240,19 +238,20 @@
 				  	height: 100px;
 				  	/*border-radius: 5px;*/
 				  	counter-increment: carousel-cell;
-					display:none;
-					color:#ADEFD1FF;
+					/*display:none;*/
+					color:#F9E79F;
 					
-
 				}
 		
-		/*--------------------------------------footer start-------------------*/	
-				.hey h2{
-				color: #156a44;
+		
+	/*--------------------------------------footer start-------------------*/	
+			
+		.hey h2{
+				color: #ADEFD1FF;
 				}
 		.hey{
 			list-style: none;
-			color:#156a44;
+			color:#ADEFD1FF;
 		}
 		.hey ul li{
 						
@@ -261,14 +260,14 @@
 						margin-top:20px;
 					}
 		.hey ul li a{
-						color:#00203FFF;
+						color: #eafbf3;
 						font-size: 20px;
 						text-decoration: none;
 					}
 		.hey i{
 					line-height: 40px;
 					font-size: 20px;
-					color:#00203FFF;
+					color:#eafbf3;
 				  }
 		.col-sm>ul { 
 					
@@ -294,7 +293,7 @@
 				width:100%;
 				line-height: 50px;
 				background-color:#00203FFF ;
-				color:#00203FFF;
+				color:#eafbf3;
                 border:1px solid #26c07a;
 			}
 		.social { width: 50px;
@@ -331,12 +330,13 @@
 	}		
 
 .fa a{
-	color:#00203FFF;
+	color: #eafbf3;
 }
 .fa a:hover{
-	color: #00203FFF;
+	color: #ADEFD1FF;
 }
-	
-
-
 		/*------------------------------------------------------Footer End---------------------------------------*/
+
+
+		
+   
