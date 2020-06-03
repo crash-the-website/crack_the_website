@@ -82,13 +82,115 @@
 		border-radius:10px;
 		width: 200px;
 		background-color:white;
-		color:white;
 	}
 
 	
 
 /*************************navbar end**********************************/
+	.no-padding{
+		padding:0;
+	}
+	.container{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.read{
+		margin-right:-15px;
+		margin-left:-15px;
+	}
+	.page-header{
+		margin:15px 0 15px !important;
+		padding-bottom:9px;
+		border-bottom:1px solid #D3D3D3	;
+	}
+	.page-header h1{
+		font-family:'merri weather','Helvetica Neue',Arial,sans-serif !important;
+		font-size:25px;
+		color: #ADEFD1FF;
+	}
+	
+	.heading{
+		width:20%;
+		float:left;
 
+	}
+	.d-inline{
+		width:25%;
+	}
+	
+	.page-header img{
+		vertical-align:middle;
+		border:0;
+	}
+	h4{
+		color:#D3D3D3;
+		font-weight:bold;
+	}
+	p{
+		line-height:1.5em;
+		text-align:justify;
+		color:#A9A9A9;
+	}
+	hr{
+		margin-top:20px;
+		margin-bottom:20px;
+		border:0;
+		border-top:1px solid #ADEFD1FF;
+	}
+	.col-md-6{
+		margin-top:15px;
+		display:inline-block;
+		float:left;
+	}
+	.middle-links{
+		padding-left:20px;
+		padding-top:10px;
+	}
+	
+	a{
+		text-decoration:none;
+		color:white;
+	} 
+	
+	a:hover{
+		color:#DCDCDC;
+	}
+	.table{
+		width:100%
+		max-width:100%;
+		margin-bottom:20px;
+	}
+	.thead td{
+		color:#ADEFD1FF;
+		font-size:1em;
+		font-family:sans-serif;
+	}
+	.tbody td{
+		color: #C0C0C0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@media (min-width:1200px){
+		.container{
+			width:1170px;
+		}
+	}
+			
+	
 
 
 
@@ -188,4 +290,3 @@
 
 
 		/*------------------------------------------------------Footer End---------------------------------------*/
-	
