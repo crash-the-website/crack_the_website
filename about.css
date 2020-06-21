@@ -2,7 +2,7 @@
 	box-sizing:border-box;
 }
 body {
-    background-color: #7a007c73;
+    background-color: #00203FFF;
     margin: 0px;
     padding:0px; 
 }
@@ -51,15 +51,12 @@ body {
 	width:18%;
 }
 .dropdown-menu{
-	background-color: #4f1131;
+	background-color:  #ADEFD1FF;
 	text-align: center;
 }
 .dropdown-menu a:hover{
 		box-sizing:border-box;
 		box-shadow:2px 2px 2px 2px #00203FFF;
-}
-.dropdown-item{
-	color: #ffffff;
 }
 .name{
 		height:75px;
@@ -87,24 +84,13 @@ body {
 	.name a:hover{
 		border-radius:10px;
 		width: 200px;
-		background-color:white;
 	}
 
 	
 
 /*************************navbar end**********************************/
-
-.breadcrumb{
-			background: linear-gradient(45deg,#80619d8a,#ff149373);
-}
-.breadcrumb a{
-			color: white;
-}
-.breadcrumb-item.active{
-	color: black;
-}
-.breadcrumb a:hover{
-	color:blue;
+.side{
+	margin-left:3%;
 }
 
 .sidebar{
@@ -156,4 +142,107 @@ h2{
 }
 img{
 	border:solid;
+	
 }
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+/*--------------------------------------footer start-------------------*/	
+				.hey h2{
+				color: #ADEFD1FF;
+				}
+		.hey{
+			list-style: none;
+			color:#ADEFD1FF;
+		}
+		.hey ul li{
+						
+						font-size: 20px;
+						list-style-type:square;
+						margin-top:20px;
+					}
+		.hey ul li a{
+						color: #eafbf3;
+						font-size: 20px;
+						text-decoration: none;
+					}
+		.hey i{
+					line-height: 40px;
+					font-size: 20px;
+					color:#eafbf3;
+				  }
+		.col-sm>ul { 
+					
+					padding-left: 5px;
+					list-style:none;
+				}
+		.footer{
+			padding-right: 0px;
+		}		  
+		.col-sm{	
+				width:100%; 
+				text-align:center;
+				background-color: none;
+			}
+			.row{
+				margin-left: 10px;
+				margin-right:0px;
+			}
+
+			.copy{ 		
+				clear:both;
+				text-align: center;
+				width:100%;
+				line-height: 50px;
+				background-color:#00203FFF ;
+				color:#eafbf3;
+                border:1px solid #26c07a;
+			}
+		.social { width: 50px;
+
+    /* height: 20px; */
+   				 border-radius: 50px;
+   				 text-align: center;
+				    line-height: 50px;
+				    position: relative;
+					right: 0px;
+				}
+				.social a{
+						position: relative;
+						right: 0px;
+				}
+	.side-social{
+		list-style: none;
+		
+	}
+	#instagram{
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, 
+				    	#d6249f 60%, #285AEB 90%) !important;
+	}	
+	#gmail{
+		background:linear-gradient(#D44638 , #B23121 , #EEEEEE ,
+						 #E2E2E2 , #C6C6C6  ) !important;
+	}
+	#facebook{
+		background: #3b5998  !important;
+    color: #FFF !important;
+	}		
+	.social i{
+		font-size: 20px;
+	}		
+
+.fa a{
+	color: #eafbf3;
+}
+.fa a:hover{
+	color: #ADEFD1FF;
+}
+	
+
+
+		/*------------------------------------------------------Footer End---------------------------------------*/
+
