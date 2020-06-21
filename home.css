@@ -110,6 +110,8 @@ body {
 					margin-top:10px;
 					padding: 0px;
 					list-style:none;
+					text-align:center;
+
 				}
 		.me ul figure li {
 							width: 300px;
@@ -146,7 +148,7 @@ body {
 		}
 		#about p{
  					font-size:20px;
- 					color:#ADEFD1FF;	
+ 					color:#004d2e;	
 				}
 			
 		.footer1 summary::-webkit-details-marker{display:none;}
@@ -158,7 +160,7 @@ body {
 				}
 				
 		.footer1 h2{
-					color:green;
+					color:#00e68a;
 					}
 		.teacher{
 			margin-top: 0px;
