@@ -97,9 +97,16 @@ body{
 	
 
 /*************************navbar end**********************************/
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
 
 	
-.form h1{
+.sd h1{
 	color: #ADEFD1FF;
 	font-size: 40px;
 	text-align: center;
@@ -108,13 +115,13 @@ body{
 	padding-top: 30px;
 	font-family: Tahoma, Geneva, sans-serif	;
 	}
-form{
+	form{
 	margin: 30px auto;
 	width:500px;
 	border-radius: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	}
-.form div{
+form div{
 	margin-top:20px;
 	}
 label{
@@ -136,7 +143,7 @@ input, textarea{
 				color:#CCFFE6;
 				vertical-align:top;
 			}
-.button1{
+button{
 	text-decoration:none;
 	border: none;
 	background:#22aa6d;
@@ -148,7 +155,12 @@ input, textarea{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:20px;
 	}
-	/*--------------------------------------footer start-------------------*/	
+/*--------------------------------------footer start-------------------*/	
+.container-fluid{
+	margin-top:10px;
+	padding-top:2px;
+}
+	
 				.hey h2{
 				color: #ADEFD1FF;
 				}
@@ -242,3 +254,4 @@ input, textarea{
 
 
 		/*------------------------------------------------------Footer End---------------------------------------*/
+
