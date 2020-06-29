@@ -88,9 +88,152 @@
 
 /*************************navbar end**********************************/
 
+.section.wb {
+    background-color:#B8B8B8;
+}
+.section{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+}
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
 
+.section-title p{
+    color: #00203FFF;
+    font-weight: 500;
+    font-size:2 em;
+    line-height: 33px;
+    margin: 0;
+}
 
+.section-title h3 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+	margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+hr.invis {
+    border-color: transparent;
+}
 
+hr.invis1 {
+    margin: 10px 0;
+    border-color: transparent;
+}
+.course-item{
+	background: #ffffff;
+}
+.course-item:hover .course-title a {
+	color: #484848	;
+}
+.image-blog img{
+	padding: 0 !important;
+	width: 100%;
+	margin: 0 !important;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
+.course-br{
+	border: 1px solid #00203FFF;
+	padding: 15px;
+	background-color: #95eac4;
+}
+.image-blog img:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+.course-title > h2 {
+    margin: 15px 0;
+    padding: 0px;
+	color:#00203FFF;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #00203FFF;
+    margin: 0
+}
+h2 {
+    font-size: 22px
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    opacity: .8
+}
+.course-title a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #00203FFF;
+    text-transform: capitalize;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+	color:black;
+}
+.course-meta-bot{
+	border: 1px solid #4babb1;
+	border-top: 0px;
+	padding: 15px;
+}
+.course-meta-bot ul{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	text-align: center;
+}
+.course-meta-bot ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	color: #00203FFF;
+	font-size: 11px;
+}
+.course-meta-bot ul li:hover{
+	color: #ADEFD1FF;
+}
 
 
 		/*--------------------------------------footer start-------------------*/	
