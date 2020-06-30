@@ -71,38 +71,41 @@
 				<h1>Send us your Feedback</h1>
 			</div>
             <div class="col-12 col-md-9">
-				<form action="/contact form" method="post">
+				<form action="/contact form" method="post" class="needs-validation" novalidate>
 					<div class="form-group row">
-						<label for="name" class="col-md-2 col-form-label"> Name:</label>
+						<label for="validationCustom01" class="col-md-2 col-form-label"> Name:</label>
 						<div class="col-md-10">
-							<input type="text" class="form-control" id="name" name="user_name" placeholder="Name">
+							<input type="text" class="form-control" id="validationCustom01" name="user_name" placeholder="Name" data-toggle="tooltip" data-placement="bottom" title="Enter Full Name">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="admission" class="col-12 col-md-2 col-form-label">Admission No:</label>
+						<label for="validationDefaultUsername" class="col-12 col-md-2 col-form-label">Admission No:</label>
 						<div class="col-md-10">
-							<input type="number" class="form-control" id="admission" name="user_admission" placeholder="Admission No.">
+							<input type="admissionno" class="form-control" id="admission" name="validationDefaultUsername" placeholder="Admission No." data-toggle="tooltip" data-placement="bottom" title="Enter Admission No." aria-describedby="inputGroupPrepend2" required>
 						</div>
 					</div>
 					<div class="form-group row">
 						<label for="email" class="col-12 col-md-2 col-form-label">Email:</label>
 						<div class="col-md-10">
-							<input type="email" class="form-control" id="email" name="user_email" placeholder="Email">
+							<input type="email" class="form-control" id="email" name="user_email" placeholder="Email" data-toggle="tooltip" data-placement="bottom" title="Enter your Email-id">
 						</div>
 					</div>
 					<div class="form-group row">
 						<label for="Phone" class="col-12 col-md-2 col-form-label">Phone No:</label>
 						<div class="col-5 col-md-3">
-							<input type="tel" class="form-control" id="Phone" name="area_code" placeholder="AreaCode">
+							<input type="tel" class="form-control" id="Phone" name="area_code" placeholder="AreaCode" data-toggle="tooltip" data-placement="bottom" title="Enter Area Code">
 						</div>
 						<div class="col-7 col-md-7">
-							<input type="tel" class="form-control" id="PhoneNo" name="user_phone" placeholder="Phone No.">
+							<input type="tel" class="form-control" id="PhoneNo" name="user_phone" placeholder="Phone No." data-toggle="tooltip" data-placement="bottom" title="Enter Phone No.">
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="address" class="col-12 col-md-2 col-form-label"> Address:</label>
+						<label for="validationTooltip03" class="col-12 col-md-2 col-form-label"> Address:</label>
 						<div class="col-md-10">
-							<input type="text" class="form-control" id="address" name="user_address" placeholder="Address">
+							<input type="text" class="form-control" id="validationTooltip03" name="user_address" placeholder="Address" required>
+							<div class="invalid-tooltip">
+								Please provide a valid city.
+							</div>
 						</div>
 					</div>
 					<div class="form-group row">
@@ -119,12 +122,12 @@
 					<div class="form-group row">
 						<label for="msg" class="col-12 col-md-2 col-form-label"> Message:</label>
 						<div class="col-md-10">
-							<textarea id="msg" class="form-control" name="user_message" rows="12"></textarea>
+							<textarea id="msg" class="form-control" name="user_message" rows="12" data-toggle="tooltip" data-placement="bottom" title="Enter Message"></textarea>
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="offset-md-2 col-md-10">
-							<button type="button" class="btn btn-light"><a href="https://mail.google.com/mail/u/0/" target="_blank" rel="indexsS">Submit</a></button>
+							<button type="button" class="btn btn-light"><a href="" target="_blank" rel="index">Submit</a></button>
 						</div>
 					</div>
 				</form>
@@ -185,8 +188,14 @@
 
 <div class="copy"><i class="fa fa-copyright" aria-hidden="true"> Copyright 2020 All Rights Reserved </i></div>
 
-</body>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+	</body>
  </html>
