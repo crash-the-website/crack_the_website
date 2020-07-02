@@ -224,7 +224,7 @@ hr.hr3 {
 }
 }
 .blog-item {
-    background: #f1f1f1;
+    background: #95eac4;
     padding: 20px;
 }
 .image-blog img{
@@ -257,7 +257,7 @@ hr.hr3 {
 .meta-info-blog > span {
     display: inline-block;
     padding-right: 14px;
-    color: #777;
+    color: #00203FFF;
 }
 .meta-info-blog > span > a {
 	color: #00203fff;
