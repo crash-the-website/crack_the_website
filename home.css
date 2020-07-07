@@ -3,7 +3,9 @@ body {
     background-color: #00203FFF;
     margin: 0px;
     padding:0px; 
+    
 }
+
 .navbar-brand{
 	font-weight: bolder;
 }
@@ -57,12 +59,11 @@ body {
 		box-shadow:2px 2px 2px 2px #00203FFF;
 }
 .name{
-		height:75px;
 		float: left;
 		font-family: Trattatello, fantasy;
-		color: #dadad8;
 		margin-left:2%;
 		transition-timing-function: ease-in-out;
+		color:#ADEFD1FF;
 	}
 	#corner{
 		width:10%
@@ -72,18 +73,18 @@ body {
 		right:0px;
 		position:fixed;
 		border:1px solid black;
-		color:grey;
 		width:100px;
 		height:5%;
 		text-align:center;
 		transition: width 2s;
-		background-color:white;
+		background-color:#161957;
 	}
 	.name a:hover{
 		border-radius:10px;
-		width: 200px;
-		background-color:white;
-		color:white;
+		background-color:grey;
+	}
+	.name:hover{
+		color: white;
 	}
 
 	
@@ -162,6 +163,17 @@ body {
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+}
+.modal-header{
+	background-color:#00203FFF;
+	color:#ADEFD1FF;
+}
+.modal-body{
+	background-color: #08253b8f;
+	color:#00203FFF;
+}
+.close:hover{
+	color: #fff;
 }
 
      
@@ -352,7 +364,7 @@ header:after{
 	font-size:45px;
 	font-weight: bold;
 	text-transform:capitalize;
-	color: WHITE; 
+	color: #ADEFD1FF; 
 }
 .header-content p{
 	font-size: 20px;
@@ -368,7 +380,7 @@ header:after{
 	padding: 15px 30px;
 	min-width: 170px;
 	border: 2px solid white;
-	color:black;
+	color:white;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 13px;
