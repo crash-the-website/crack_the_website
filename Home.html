@@ -3,7 +3,389 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My School</title><!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>My School</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #00203FFF">
+		<a class="navbar-brand" href="home.html">
+			<img src="Logo.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+			Welcome to Grand High School
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button> 
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="about.html">Know About us</a>
+						<a class="dropdown-item" href="course.html">Course</a>
+					    <a class="dropdown-item" href="teachers.html">Teachers</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="https://www.smvdu.ac.in/images/stories/pdf/Admissions%20PG/2020_21/03062020_AdmissionBro2020-21V2.pdf">Admission Process</a>
+						<a class="dropdown-item" href="Enquiry.html">Admission enquiry</a>
+						<a class="dropdown-item" href="apply.html">Apply Now</a>
+						<a class="dropdown-item" href="Fee.html">Fee Structure</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="primary.html">Primary School</a>
+						<a class="dropdown-item" href="secondary.html">Secondary School</a>
+						<a class="dropdown-item" href="tc.html">Download TC</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="" data-toggle="modal" data-target="#Contactus"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us<span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<div class="name" id="corner">
+				<a data-toggle="modal" data-target="#Contactus"><span class="fa fa-comments-o"></span> Talk to us!</a>
+			</div>
+		</div>
+	</nav>
+	<!-------------------------------navbar----------------->
+	<div id="Contactus" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title offset-3">Send Us Your Feedback </h4>
+                    <button type="button" class="close" id="btnHideModal" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                            <div class="form-group row">
+                            	<label for="name" class="col-12 col-md-2 col-form-label">Name</label>
+                            	<div class="col-md-4">
+                            		<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First" required>
+                            	</div>
+                            	<div class="col-md-4">
+                            		<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="text" class="col-12 col-md-2 col-form-label">Admission No.</label>
+                            	<div class="col-md-6">
+                            		<input type="number" name="addmission" placeholder="Addmission" class="form-control" id="addmission" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="phone-no" class="col-12 col-md-2 col-form-label">Phone No.</label>
+                                <div class="col-md-2">
+                                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="AreaCode" required>
+                                </div>
+                                <div class=" col-md-4">
+                                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Phone" required>
+                                </div>
+                             </div>
+                            <div class="form-group row">
+                            	<label for="text" class="col-12 col-md-2 col-form-label">Email</label>
+                            	<div class="col-md-6">
+                            		<input type="email" name=email placeholder="example@gmail.com" class="form-control" id="email" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="gender" class="col-12 col-md-2 col-form-label">Gender</label>
+                            	<div class="col-md-6">
+                            		<select class="custom-select" required>
+                            			<option selected>Select Gender</option>
+                            			<option value="1">Male</option>
+                            			<option value="2">Female</option>
+                            			<option value="3">Others</option>
+                            		</select>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="msg" class="col-12 col-md-2 col-form-label">Message</label>
+                            	<div class="col-md-6">
+                            		<textarea id="msz" class="form-control" name="message"></textarea>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" id="btnHideModal" data-dismiss="modal" class="btn btn-secondary">Cancel
+                                    </button>
+                                    <button type="submit" class="btn" style="background:#00203FFF;color: #fff">Submit
+                                    </button>
+                                </div>
+                            </div>       
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div>
+	
+	<div class="w3-content w3-display-container">
+		<img class="mySlides"src="https://www.wcsdpa.org/cms/lib/PA02203612/Centricity/ModuleInstance/2013/large/CO-cropped%20for%20Pinnacle%20Template.jpg" style="width:100%">
+		<img class="mySlides" src="https://bangkok.unesco.org/sites/default/files/styles/theme_highlights/public/assets/article/Education/images/shutterstock571733401_0.jpg?itok=Os48S0Eq" style="width:100%">
+		<img class="mySlides" src="https://www.nme.com/wp-content/uploads/2020/04/school-life-netflix.jpg" style="width:100%">
+		<img class="mySlides" src="https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80.jpg" style="width:100%">
+		<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSB-PrA5Nz8BjoiQe11WE0pLE52gk3n7KuMvEnHXpT4DSkI2QCo&usqp=CAU" style="width:100%">
+	</div>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				}
+			myIndex++;
+			if (myIndex > x.length) 
+			{
+				myIndex = 1
+				}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000);    
+		}
+	</script>
+</div>
+		
+<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="fa fa-bullseye" aria-hidden="true"></i></div>
+						<h3><a href="about.html">Mission</a></h3>
+						<div class="tr-pa">M</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="fa fa-low-vision" aria-hidden="true"></i></div>
+						<h3><a href="about.html">Vision</a></h3>
+						<div class="tr-pa">V</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="fa fa-history" aria-hidden="true"></i></div>
+						<h3><a href="about.html">History</a></h3>
+						<div class="tr-pa">H</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<div>
+	<div id="about">
+		<h1><b>ABOUT US</b><h1><hr>
+			<p>A non-selective state boarding school, Gordon’s School was established in 1885 at the behest of Queen Victoria and has since developed </br>into one of the leading boarding schools in the UK. Situated in 50-acres of beautiful grounds with generous facilities, we seek to</br> provide a world-class education that ensures all students learn how to be the best they can be.</p>
+			<p>Officially listed as one of Britain’s outstanding schools by Her Majesty’s Chief Inspector, we recognise that a good education is not</br> just about outstanding examination results but a thorough preparation for life; it is about providing opportunities and experiences</br> for all young people to find their talents and interests, develop good character, become accomplished and achieve across a range of </br>disciplines and ultimately develop the confidence to go and make their mark in the world.</p>
+			<p>However, the real judgement of Gordon’s is the students. All who visit are struck by the friendliness, discipline and vibrancy</br> throughout the school and by the family atmosphere, exemplified by the special rapport between staff and students. This is borne from a</br> community that strives: to live with integrity, to be courteous, enthusiastic and diligent, even in adversity.</p>
+			<p>As parents, we wish our children to grow up to lead fulfilled lives, enjoy healthy lifestyles and make a positive contribution to the</br> wider world. At Gordon’s we want nothing less. We want Gordon’s to be recognised as one of the finest schools in the world, not just</br> for our achievements, but for the calibre of young people we develop and the difference they make to the lives of others.</p>
+			<p style="color:#00203fff"><b>Andrew J Moss MEd</b></br>
+			Head Teacher </p>
+		
+			<details class="footer1"> 
+			<summary><h2> NATIONALITY </h2>(click here)</summary>
+			<p><b><h2>66</h2></b></p>
+			</details>
+
+			<details class="footer1">
+			<summary><h2> STUDENT TEACHER RATIO </h2>(click here)</summary>
+			<p><b><h2>8:1</h2></b></p>
+			</details>
+
+			<details class="footer1">
+			<summary><h2> STUDENTS </h2>(click here)</summary>
+			<p><b><h2>1200</h2></b></p>
+			</details>
+
+			<details class="footer1">
+			<summary><h2> YEAR OF HISTORY AND TRADITION</h2>(click here)</summary>
+			<p><b><h2>56</h2></b></p>
+			</details>
+
+			<details class="footer1">
+			<summary><h2> ACCREDIATIONS AND MEMBERSHIPS OF</br> GLOBAL ASSOCIATION</h2>(click here)</summary>
+			<p><b><h2>10</h2></b></p>
+			</details>
+	</div>
+</div>
+
+<div class="teacher animated fadeIn">
+<h3>The School management is constituted of eminent personalities from the field of education, administrations, corporate research, creative art<br> etc. The School has flourished and set new bench marks in the educational arena under the expert guidance and innovative ideas of our</br>illustrious board members.</h3>
+	<span><h1>Our Faculties</h1></span>
+	<div class="carousel" data-flickity='{ "groupCells": true }'>
+		  <div class="carousel-cell "><img src="https://images.unsplash.com/flagged/photo-1577351285836-19ff13f8e615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Nairobi</figcaption>
+		   <div onclick="myFunction(this)" class="btnnn">MORE...</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell "><img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Denver</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1569007889977-42e2392850d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80.jpg"width="50%"><figcaption>Raquel</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/flagged/photo-1536475280412-92f55a99824e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Alicia</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>  
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1585602173562-e7eeb0e6f380?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Berlin</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>  
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/flagged/photo-1577350591385-0ec0f21810c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Rio</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Monica</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1584518969469-c2d99c7760a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Arturo</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/flagged/photo-1577351285836-19ff13f8e615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Tokyo</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Angel</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/flagged/photo-1577350591385-0ec0f21810c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Maesella</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+		  <div class="carousel-cell"><img src="https://images.unsplash.com/photo-1585602173562-e7eeb0e6f380?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80.jpg"width="50%"><figcaption>Helsinki</figcaption>
+		  <div onclick="myFunction(this)" class="btnnn">MORE..</div>
+		  <div  onclick="myFunc(this)"  class="btn1">Chairman: Grand High School</div>
+		  </div>
+	</div>
+</div><br>
+
+<header>		
+	<div class="container">
+		<div class="header-content">
+			<div class="row">
+				<div class="col-md-6">
+					<div style="margin-top:80px;"></div>
+					<h1>Our blogs </h1>
+					<p>
+						I am a man who dont think only for yorself but i always see peoples whom i can  laugh. spreading happiness is my last choice. I can make people happy by showing blogs.
+					</p>
+					<a href="blog.html" class="theme-btn">More blogs</a>
+				</div>
+				<div class="col-md-6">
+					<div style="margin-top:30px;">
+						<img src="header.png" class="img-responsive" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+			                <!-- .................................FOOTER START..........................................-->
+
+
+<div class="container-fluid footer" style="background-color:grey">
+  <div class="row">
+    <div class="col-sm-3">
+      	<ul>
+			<li class="hey"><h2>Quick Links</h2>
+				<ul>
+					<li><a href="">Faculty</a></li>
+					<li><a href="">Career</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="">Download your TC</a></li>
+					<li><a href="" data-toggle="modal" data-target="#Contactus">Contact us</a></li>
+				</ul>
+			</li>	
+		</ul>
+    </div>
+    <div class="col-sm-3">
+    	<ul>
+	      <li class="hey"><h2>Admission</h2>
+					<ul>
+						<li><a href="">Admissions</a></li>
+						<li><a href="">Bus Fee Structure</a></li>
+						<li><a href="">Fee Structure</a></li>
+					</ul>
+				</li>
+		</ul>		
+    </div>
+    <div class="col-sm-3">
+    	<ul>
+		     <li class="hey"><h2>Get In Touch</h2><i class="fa fa-map-marker"> Lonavala Mumbai C/211 nearby Marine<br>   Dssrive,Apollo Street 110049</i><br>
+						<i class="fa fa-envelope "><a href="mailto:">contactus@gmail.com</a></i><br>
+						<i class="fa fa-envelope "><a href="mailto:">abc@gmail.com</a></i><br>
+						<i class="fa fa-phone" aria-hidden="true"> +91-999999999</i>
+			</li>
+		</ul>
+    </div>
+    <div class="col-sm-3 " style="padding-right: 0px;">
+	    <div class="side-social" align="right">
+	    	<div class="social" id="facebook">
+	    		<a href="#"><i class="fa fa-facebook" aria-hidden="true" style="color: white"></i></a>
+	    	</div>
+	    	<div class="social" id="gmail">
+	    		<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+	    	</div>
+	    	<div class="social" id="instagram">
+	    		<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	    	</div>
+	    </div>
+    </div>	
+  </div>
+</div>
+
+
+<div class="copy"><i class="fa fa-copyright" aria-hidden="true"> Copyright 2020 All Rights Reserved </i></div>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
