@@ -61,12 +61,81 @@
 				</li>
 			</ul>
 			<div class="name" id="corner">
-				<a href="contact.html">Talk to us!</a>
+				<a data-toggle="modal" data-target="#Contactus"><span class="fa fa-comments-o"></span> Talk to us!</a>
 			</div>
 		</div>
 	</nav>
 	<!-------------------------------navbar----------------->
-
+	<div id="Contactus" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title offset-3">Send Us Your Feedback </h4>
+                    <button type="button" class="close" id="btnHideModal" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                            <div class="form-group row">
+                            	<label for="name" class="col-12 col-md-2 col-form-label">Name</label>
+                            	<div class="col-md-4">
+                            		<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First" required>
+                            	</div>
+                            	<div class="col-md-4">
+                            		<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="text" class="col-12 col-md-2 col-form-label">Admission No.</label>
+                            	<div class="col-md-6">
+                            		<input type="number" name="addmission" placeholder="Addmission" class="form-control" id="addmission" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="phone-no" class="col-12 col-md-2 col-form-label">Phone No.</label>
+                                <div class="col-md-2">
+                                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="AreaCode" required>
+                                </div>
+                                <div class=" col-md-4">
+                                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Phone" required>
+                                </div>
+                             </div>
+                            <div class="form-group row">
+                            	<label for="text" class="col-12 col-md-2 col-form-label">Email</label>
+                            	<div class="col-md-6">
+                            		<input type="email" name=email placeholder="example@gmail.com" class="form-control" id="email" required>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="gender" class="col-12 col-md-2 col-form-label">Gender</label>
+                            	<div class="col-md-6">
+                            		<select class="custom-select" required>
+                            			<option selected>Select Gender</option>
+                            			<option value="1">Male</option>
+                            			<option value="2">Female</option>
+                            			<option value="3">Others</option>
+                            		</select>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                            	<label for="msg" class="col-12 col-md-2 col-form-label">Message</label>
+                            	<div class="col-md-6">
+                            		<textarea id="msz" class="form-control" name="message"></textarea>
+                            	</div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" id="btnHideModal" data-dismiss="modal" class="btn btn-secondary">Cancel
+                                    </button>
+                                    <button type="submit" class="btn" style="background:#00203FFF;color: #fff">Submit
+                                    </button>
+                                </div>
+                            </div>       
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <div>
@@ -231,11 +300,11 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div style="margin-top:80px;"></div>
-					<h1 style="color:#ADEFD1FF">Our blogs </h1>
+					<h1>Our blogs </h1>
 					<p>
 						I am a man who dont think only for yorself but i always see peoples whom i can  laugh. spreading happiness is my last choice. I can make people happy by showing blogs.
 					</p>
-					<a href="blog.html" class="theme-btn" style="color:WHITE">More blogs</a>
+					<a href="blog.html" class="theme-btn">More blogs</a>
 				</div>
 				<div class="col-md-6">
 					<div style="margin-top:30px;">
@@ -260,7 +329,7 @@
 					<li><a href="">Career</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="">Download your TC</a></li>
-					<li><a href="contact.html">Contact us</a></li>
+					<li><a href="" data-toggle="modal" data-target="#Contactus">Contact us</a></li>
 				</ul>
 			</li>	
 		</ul>
